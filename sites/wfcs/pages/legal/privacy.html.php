@@ -80,13 +80,15 @@ state:
               <h3 class="wow fadeInUp w-full mb-6 text-2xl font-semibold text-dark dark:text-white sm:text-[28px] sm:leading-[40px]" data-wow-delay=".1s"> Data Protection Officer </h3>
 
               <p class="mb-8">The Well Foundation is based in Bellshill, Scotland. The Well Foundation community sports has appointed an internal data protection officer for you to contact if you have any questions or concerns about The Well Foundation community sports’ personal data policies or practices. The Well Foundation community sports’ data protection officer’s name and contact information are as follows:</p>
-              <p>Fahim Baqir
-                <br>211B MainStreet, 
-                <br>Bellshill, 
-                <br>ML4 1AJ, 
+              <p class="mb-4">Fahim Baqir
+                <br>Building 2, Unit C, Ground Floor, 
+                <br>4 Parklands Way, 
+                <br>Eurocentral, 
+                <br>Holytown, 
+                <br>ML1 4WR, 
                 <br>Scotland
-                <br>Email: <a class="text-dark hover:text-primary dark:text-white" href="mailto:info@wfcs.co.uk">info&#64;wfcs.co.uk</a>
               </p>
+              <p class="mb-4">Email: <a class="text-dark hover:text-primary dark:text-white" href="mailto:info@wfcs.co.uk">info&#64;wfcs.co.uk</a></p>
 
             </div>
 

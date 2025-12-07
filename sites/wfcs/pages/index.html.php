@@ -5,6 +5,7 @@
 @form:
     name: contact-us
     processors:
+        - csv
         - 'email':
             recipients:
                 - info@wfcs.co.uk
@@ -105,6 +106,7 @@ summary: Well foundation community sports helps young people transition into uni
                 <p class="mb-10 text-base leading-relaxed text-body-color dark:text-dark-6"> The Well Foundation Community Sports hub and Academy has successfully provided underserved children in the BME community with access to sports and activities they often lack. <br />
                   <br /> For instance, by collaborating with youth football teams, the organisation has integrated children from diverse backgrounds, enabling them to enjoy sports in safe, professional settings.
                 </p>
+                <p class="mb-10 text-base leading-relaxed text-body-color dark:text-dark-6">The Well Foundation is proud to receive the prestigious King’s Award for Voluntary Service, announced annually on the King’s birthday, November 14th. This honour belongs to our dedicated volunteers, whose compassion, commitment, and tireless efforts have made a real difference in our community. This award, the highest recognition for volunteer groups in the UK, is equivalent to an MBE and awarded for life. We are deeply grateful for each volunteer’s role in achieving this milestone.</p>
               </div>
             </div>
             <div class="w-full px-4 lg:w-1/2">
@@ -116,7 +118,7 @@ summary: Well foundation community sports helps young people transition into uni
                 </div>
                 <div class="w-full px-2 sm:w-1/2 sm:px-4 lg:px-2 xl:px-4">
                   <div class="mb-4 sm:mb-8 sm:h-[220px] md:h-[346px] lg:mb-4 lg:h-[225px] xl:mb-8 xl:h-[310px]">
-                    <img src="images://about/about-image-02.jpg" alt="about image" class="h-full w-full object-cover object-center" />
+                    <img src="images://about/kings-award.jpg" alt="King's Award for Voluntary Service" class="h-full w-full object-cover object-center" />
                   </div>
                   <div class="relative z-10 mb-4 flex items-center justify-center overflow-hidden bg-primary px-6 py-12 sm:mb-8 sm:h-[160px] sm:p-5 lg:mb-4 xl:mb-8">
                     <div>
@@ -181,7 +183,7 @@ summary: Well foundation community sports helps young people transition into uni
             </div>
           </div>
         </div>
-        <div class="-mx-4 flex flex-wrap md:justify-center">
+        <div class="-mx-4 flex flex-wrap md:justify-center mb-10">
           <div class="w-full px-4 md:w-1/2 lg:w-1/3">
             <div class="relative z-10 mb-10 overflow-hidden rounded-xl bg-white px-8 py-10 shadow-pricing dark:bg-dark-2 sm:p-12 lg:px-6 lg:py-10 xl:p-14">
               <span class="mb-5 block text-xl font-medium text-dark dark:text-white"> Self-defence </span>
@@ -193,13 +195,11 @@ summary: Well foundation community sports helps young people transition into uni
               <div class="mb-[50px]">
                 <h5 class="mb-5 text-lg font-medium text-dark dark:text-white"> Details </h5>
                 <div class="flex flex-col gap-[14px]">
-                  <p class="text-base text-body-color dark:text-dark-6"> Single sex classes for both boys &amp; girls </p>
-                  <p class="text-base text-body-color dark:text-dark-6"> Girls: Wednesdays - 7:15pm-8:30pm </p>
-                  <p class="text-base text-body-color dark:text-dark-6"> Boys: Saturdays - 10am-11am </p>
-                  <p class="text-base text-body-color dark:text-dark-6"> Venue: Lanarkshire Mosque, Bellshill </p>
+                  <p class="text-base text-body-color dark:text-dark-6"> Single sex classes for girls </p>
+                  <p class="text-base text-body-color dark:text-dark-6"> Wednesdays - 8:00pm</p>
+                  <p class="text-base text-body-color dark:text-dark-6"> Venue: Ravenscraig </p>
                 </div>
               </div>
-              <a href="/sports/football" class="inline-block rounded-md bg-primary px-7 py-3 text-center text-base font-medium text-white transition hover:bg-blue-dark"> Learn More </a>
             </div>
           </div>
           <div class="w-full px-4 md:w-1/2 lg:w-1/3">
@@ -214,9 +214,11 @@ summary: Well foundation community sports helps young people transition into uni
               <div class="mb-[50px]">
                 <h5 class="mb-5 text-lg font-medium text-dark dark:text-white"> Details </h5>
                 <div class="flex flex-col gap-[14px]">
-                  <p class="text-base text-body-color dark:text-dark-6"> Kids football academy: Wednesdays - from 7:20pm </p>
-                  <p class="text-base text-body-color dark:text-dark-6"> Under 17s football league: Fridays - 8pm-10pm </p>
-                  <p class="text-base text-body-color dark:text-dark-6"> Adults 7s league: Fridays - 9pm-10pm </p>
+                  <p class="text-base text-body-color dark:text-dark-6"> Under 16s: Wednesdays - 7:30pm - 9:00pm </p>
+                  <p class="text-base text-body-color dark:text-dark-6"> Community league: Wednesdays - 9pm-10pm </p>
+                  <p class="text-base text-body-color dark:text-dark-6"> Friday super league: Fridays - 8pm-10pm </p>
+                  <p class="text-base text-body-color dark:text-dark-6"> Friday oldies game: Fridays - 8pm-10pm </p>
+                  <p class="text-base text-body-color dark:text-dark-6"> 11-a-side game: Sundays - 1pm-5pm </p>
                 </div>
               </div>
               <a href="/sports/football" class="inline-block rounded-md bg-primary px-7 py-3 text-center text-base font-medium text-white transition hover:bg-blue-dark"> Learn More </a>
@@ -233,11 +235,53 @@ summary: Well foundation community sports helps young people transition into uni
               <div class="mb-[50px]">
                 <h5 class="mb-5 text-lg font-medium text-dark dark:text-white"> Details </h5>
                 <div class="flex flex-col gap-[14px]">
-                  <p class="text-base text-body-color dark:text-dark-6"> Indoor cricket: Wednesdays - 7:30pm-9:30pm </p>
-                  <p class="text-base text-body-color dark:text-dark-6"> Cricket academy: Thursdays - 9pm-10:30pm </p>
-                  <p class="text-base text-body-color dark:text-dark-6"> Outdoor cricket: Weather dependant </p>
+                  <p class="text-base text-body-color dark:text-dark-6"> Monday - 7:30pm </p>
+                  <p class="text-base text-body-color dark:text-dark-6"> Venue: Dalziel park </p>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+        <div class="wow fadeInUp" data-wow-delay=".2s">
+          <div class="mx-auto mb-[60px] max-w-[810px] text-center">
+            <h2 class="mb-5 text-3xl font-bold leading-tight text-dark dark:text-white sm:text-[40px] sm:leading-[1.2]" itemprop="name">Well Foundation Under 5s Football Academy – Enrol Now!</h2>
+            <p class="mb-10 text-base leading-relaxed text-body-color dark:text-dark-6">Looking for a fun and engaging way for your child to stay active? The <strong>Well Foundation Under 5s Football Academy</strong> is the perfect place for young children to develop their football skills in a friendly and supportive environment.</p>
+          </div>
+          <div class="flex flex-wrap items-center">
+            <div class="w-full px-4 lg:w-1/2">
+              <div class="mb-12 max-w-[540px] lg:mb-0" itemscope itemtype="https://schema.org/Event">
+                  <h3 class="mb-6 text-xl font-semibold text-dark dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">Why Join?</h3>
+                  <ul class="mb-10 text-base leading-relaxed text-body-color dark:text-dark-6">
+                      <li><strong>Learn Basic Football Techniques</strong> – Improve coordination, balance, and teamwork.</li>
+                      <li><strong>Build Confidence & Make Friends</strong> – Socialize with other children while having fun.</li>
+                      <li><strong>Stay Active & Healthy</strong> – Encourage a love for sports from an early age.</li>
+                  </ul>
+                  
+                  <h3 class="mb-6 text-xl font-semibold text-dark dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">Academy Details:</h3>
+                  <p class="mb-10 text-base leading-relaxed text-body-color dark:text-dark-6"><strong>Location:</strong> 
+                    <span itemprop="location" itemscope itemtype="https://schema.org/Place">
+                      <span itemprop="name">Braidhust High School</span>, Dalriada Crescent, Motherwell, ML1 3XF</span><br>
+                      <strong>Time:</strong> <span itemprop="startDate" content="2024-01-27T10:00">Saturdays, 10:00am - 11:00am</span><br>
+                      <strong>Cost:</strong> £5 per child</p>
+                  
+                  <h3 class="mb-6 text-xl font-semibold text-dark dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">How to Register</h3>
+                  <p class="mb-4 text-base leading-relaxed text-body-color dark:text-dark-6">Join our WhatsApp group to stay updated on registration, schedules, and events:</p>
+                  <p class="mb-10 text-base leading-relaxed text-body-color dark:text-dark-6">
+                    <a class="inline-block rounded-md border border-transparent bg-secondary px-7 py-3 text-base font-medium text-white transition hover:bg-[#0BB489]" href="https://chat.whatsapp.com/Gehk2OXQ8Gt06qbWlwbKbB" target="_blank" rel="noopener">
+                      <svg class="inline-block fill-current" width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M17.6 6.31999C16.8669 5.58141 15.9943 4.99596 15.033 4.59767C14.0716 4.19938 13.0406 3.99622 12 3.99999C10.6089 4.00135 9.24248 4.36819 8.03771 5.06377C6.83294 5.75935 5.83208 6.75926 5.13534 7.96335C4.4386 9.16745 4.07046 10.5335 4.06776 11.9246C4.06507 13.3158 4.42793 14.6832 5.12 15.89L4 20L8.2 18.9C9.35975 19.5452 10.6629 19.8891 11.99 19.9C14.0997 19.9001 16.124 19.0668 17.6222 17.5816C19.1205 16.0965 19.9715 14.0796 19.99 11.97C19.983 10.9173 19.7682 9.87634 19.3581 8.9068C18.948 7.93725 18.3505 7.05819 17.6 6.31999ZM12 18.53C10.8177 18.5308 9.65701 18.213 8.64 17.61L8.4 17.46L5.91 18.12L6.57 15.69L6.41 15.44C5.55925 14.0667 5.24174 12.429 5.51762 10.8372C5.7935 9.24545 6.64361 7.81015 7.9069 6.80322C9.1702 5.79628 10.7589 5.28765 12.3721 5.37368C13.9853 5.4597 15.511 6.13441 16.66 7.26999C17.916 8.49818 18.635 10.1735 18.66 11.93C18.6442 13.6859 17.9355 15.3645 16.6882 16.6006C15.441 17.8366 13.756 18.5301 12 18.53ZM15.61 13.59C15.41 13.49 14.44 13.01 14.26 12.95C14.08 12.89 13.94 12.85 13.81 13.05C13.6144 13.3181 13.404 13.5751 13.18 13.82C13.07 13.96 12.95 13.97 12.75 13.82C11.6097 13.3694 10.6597 12.5394 10.06 11.47C9.85 11.12 10.26 11.14 10.64 10.39C10.6681 10.3359 10.6827 10.2759 10.6827 10.215C10.6827 10.1541 10.6681 10.0941 10.64 10.04C10.64 9.93999 10.19 8.95999 10.03 8.56999C9.87 8.17999 9.71 8.23999 9.58 8.22999H9.19C9.08895 8.23154 8.9894 8.25465 8.898 8.29776C8.8066 8.34087 8.72546 8.403 8.66 8.47999C8.43562 8.69817 8.26061 8.96191 8.14676 9.25343C8.03291 9.54495 7.98287 9.85749 8 10.17C8.0627 10.9181 8.34443 11.6311 8.81 12.22C9.6622 13.4958 10.8301 14.5293 12.2 15.22C12.9185 15.6394 13.7535 15.8148 14.58 15.72C14.8552 15.6654 15.1159 15.5535 15.345 15.3915C15.5742 15.2296 15.7667 15.0212 15.91 14.78C16.0428 14.4856 16.0846 14.1583 16.03 13.84C15.94 13.74 15.81 13.69 15.61 13.59Z" />
+                      </svg>
+                      Join our WhatsApp Group
+                    </a>
+                  </p>
+                  
+                  <p class="mb-4 text-base leading-relaxed text-body-color dark:text-dark-6">Let's inspire the next generation of football stars!</p>
+              </div>
+            </div>
+            <div class="w-full px-4 lg:w-1/2">
+                <div class="mb-4 sm:mb-8">
+                  <img src="images://popular/wfu5academy.jpg" alt="well foundation under 5s football academy image" class="h-full w-full object-cover object-top" />
+                </div>
             </div>
           </div>
         </div>
@@ -692,7 +736,8 @@ summary: Well foundation community sports helps young people transition into uni
                   </div>
                   <div>
                     <h5 class="mb-[18px] text-lg font-semibold text-dark dark:text-white"> Our location </h5>
-                    <p class="text-base text-body-color dark:text-dark-6"> 211B Main Street, Bellshill, ML4 1AJ, Scotland </p>
+                    <p class="text-base text-body-color dark:text-dark-6 mb-8"> Building 2<sup>*</sup>, <br>Unit C, <br>Ground Floor, <br>4 Parklands Way, <br>Eurocentral, <br>Holytown, <br>ML1 4WR </p>
+                    <p class="text-sm text-body-color dark:text-dark-6"><sup>*</sup>Entrance at rear of building</p>
                   </div>
                 </div>
                 <div class="mb-8 flex w-[330px] max-w-full">
@@ -733,11 +778,7 @@ summary: Well foundation community sports helps young people transition into uni
                   <label for="message" class="mb-4 block text-sm text-body-color dark:text-dark-6">Message*</label>
                   <textarea name="message" rows="1" placeholder="type your message here" required class="w-full resize-none border-0 border-b border-[#f1f1f1] bg-transparent pb-3 text-body-color placeholder:text-body-color/60 focus:border-primary focus:outline-none dark:border-dark-3 dark:text-dark-6"></textarea>
                 </div>
-                
-                <div class="hidden">
-                    <?= helper('form')->honeypot(page()->form->honeypot); ?>
-                </div>
-                
+                <?= helper('form.honeypot'); ?>
                 <div class="mb-0">
                   <button type="submit" class="inline-flex items-center justify-center rounded-md bg-primary px-10 py-3 text-base font-medium text-white transition duration-300 ease-in-out hover:bg-blue-dark" data-errormsg="Send message" data-successmsg="Sending"> Send message </button>
                 </div>
