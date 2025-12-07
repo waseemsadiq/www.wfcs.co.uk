@@ -26,7 +26,7 @@ state:
 
           <ul class="flex items-center justify-center gap-[10px]">
             <li>
-              <a href="index.html" class="flex items-center gap-[10px] text-base font-medium text-dark dark:text-white">
+              <a href="/" class="flex items-center gap-[10px] text-base font-medium text-dark dark:text-white">
                 Home
               </a>
             </li>

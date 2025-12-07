@@ -8,6 +8,7 @@
         <div class="w-full px-4 md:w-2/3 lg:w-1/2">
           <div class="my-1">
             <div class="-mx-3 flex items-center justify-center md:justify-start">
+              <a href="/legal" class="px-3 text-base text-gray-7 hover:text-white hover:underline"> Legal Information </a>
               <a href="/legal/privacy" class="px-3 text-base text-gray-7 hover:text-white hover:underline"> Privacy policy </a>
               <a href="/legal/terms-and-conditions" class="px-3 text-base text-gray-7 hover:text-white hover:underline"> Terms &amp; Conditions </a>
             </div>
@@ -15,7 +16,7 @@
         </div>
         <div class="w-full px-4 md:w-1/3 lg:w-1/2">
           <div class="my-1 flex justify-center md:justify-end">
-            <p class="text-base text-gray-7"> Website by <a href="https://www.waseemsadiq.com" rel="nofollow noopner" target="_blank" class="text-gray-1 hover:underline"> Waseem Sadiq</a> | Powered by <a href="https://www.joomlatools.com" rel="nofollow noopner" target="_blank" class="text-gray-1 hover:underline">Joomlatools Server</a>
+            <p class="text-sm md:text-base text-gray-7"> Website by <a href="https://www.waseemsadiq.com" rel="nofollow noopner" target="_blank" class="text-gray-1 hover:underline"> Waseem Sadiq</a> | Powered by <a href="https://www.joomlatools.com" rel="nofollow noopner" target="_blank" class="text-gray-1 hover:underline">Joomlatools</a>
             </p>
           </div>
         </div>

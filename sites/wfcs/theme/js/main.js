@@ -18,10 +18,10 @@
         // === logo change
         if (ud_header.classList.contains("sticky")) {
           document.querySelector(".header-logo").src =
-            "/images/logo/logo.svg"
+            "/sites/wfcs/images/logo/logo.svg"
         } else {
           document.querySelector(".header-logo").src =
-            "/images/logo/logo-white.svg"
+            "/sites/wfcs/images/logo/logo-white.svg"
         }
       } 
     } else {
@@ -29,7 +29,7 @@
         // === logo change
         if (ud_header.classList.contains("sticky")) {
           document.querySelector(".header-logo").src =
-            "/images/logo/logo.svg"
+            "/sites/wfcs/images/logo/logo.svg"
         } 
       }
     }
@@ -39,7 +39,7 @@
         // === logo change
         if (ud_header.classList.contains("sticky")) {
           document.querySelector(".header-logo").src =
-            "/images/logo/logo-white.svg"
+            "/sites/wfcs/images/logo/logo-white.svg"
         } 
       }
     }

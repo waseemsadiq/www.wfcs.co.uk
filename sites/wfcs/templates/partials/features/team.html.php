@@ -50,13 +50,6 @@
       <div class="text-center">
         <h4 class="mb-1 text-lg font-semibold text-dark dark:text-white"><?= $item->name ?></h4>
         <p class="mb-5 text-sm text-body-color dark:text-dark-6"><?= $item->sports ?></p>
-        <div class="flex items-center justify-center gap-5">
-          <a href="tel:<?= $item->tel ?>" class="text-dark-6 hover:text-primary">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-current">
-              <path d="M12,0C5.383,0,0,5.383,0,12s5.383,12,12,12,12-5.383,12-12S18.617,0,12,0Zm5.665,16.587l-.522,.6c-.551,.552-1.277,.813-2,.813-3.714,0-9.143-5.143-9.143-9.143,0-.723,.261-1.449,.813-2l.6-.522c.446-.446,1.17-.446,1.616,0l1,1.302c.446,.446,.446,1.17,0,1.616l-.851,1.069c.901,2.244,2.429,3.71,4.5,4.5l1.069-.851c.446-.446,1.17-.446,1.616,0l1.302,1c.446,.446,.446,1.17,0,1.616Z"/>
-            </svg>
-          </a>
-        </div>
       </div>
     </div>
   </div>

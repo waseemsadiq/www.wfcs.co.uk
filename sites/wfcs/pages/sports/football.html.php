@@ -16,11 +16,11 @@ state:
         <div class="flex flex-wrap justify-center -mx-4">
             <div class="w-full px-4">
                 <div class="wow fadeInUp relative z-20 mb-[50px] h-[300px] overflow-hidden rounded-[5px] md:h-[400px] lg:h-[500px]" data-wow-delay=".1s">
-                    <?=  import('/partials/images/random', [
-                        'folder' => 'images/sports/football',
+                    <?=  import('/partials/page/random-videos', [
+                        'folder' => 'videos://football',
                         'shuffle' => true,
                         'limit' => 1,
-                        'class' => 'object-cover object-center w-full h-full',
+                        'class' => 'football',
                     ]); ?>
                     <div class="absolute top-0 left-0 z-10 flex items-end w-full h-full bg-gradient-to-t from-dark-700 to-transparent">&nbsp;</div>
                 </div>
