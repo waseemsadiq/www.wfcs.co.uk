@@ -733,7 +733,11 @@ summary: Well foundation community sports helps young people transition into uni
                   <label for="message" class="mb-4 block text-sm text-body-color dark:text-dark-6">Message*</label>
                   <textarea name="message" rows="1" placeholder="type your message here" required class="w-full resize-none border-0 border-b border-[#f1f1f1] bg-transparent pb-3 text-body-color placeholder:text-body-color/60 focus:border-primary focus:outline-none dark:border-dark-3 dark:text-dark-6"></textarea>
                 </div>
-                <?= helper('form')->honeypot(page()->form->honeypot); ?>
+                
+                <div class="hidden">
+                    <?= helper('form')->honeypot(page()->form->honeypot); ?>
+                </div>
+                
                 <div class="mb-0">
                   <button type="submit" class="inline-flex items-center justify-center rounded-md bg-primary px-10 py-3 text-base font-medium text-white transition duration-300 ease-in-out hover:bg-blue-dark" data-errormsg="Send message" data-successmsg="Sending"> Send message </button>
                 </div>
